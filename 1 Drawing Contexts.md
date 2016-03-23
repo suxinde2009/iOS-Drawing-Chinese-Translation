@@ -7,3 +7,4 @@ iOS的基础绘图程序主要来自于UIKit框架和QuartzCore框架。它们�
 
     // Draw a rounded rectangle in UIKit 
     UIBezierPath *bezierPath = [UIBezierPath bezierPathWithRoundedRect:inset cornerRadius:12]; [bezierPath stroke];    // Fill an ellipse in Quartz     CGContextFillEllipseInRect(context, rect);
+QuartzCore框架通常被称为 Quartz 或者 Quartz 2D. 后者是苹果官方为其本地2D渲染和抗锯齿(antialiasing) API的命名。 它同样是Apple's developer library中用于提供基础绘图的参考指南 “Quartz 2D Programming Guide”的文件名。
